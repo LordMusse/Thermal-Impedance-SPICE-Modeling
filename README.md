@@ -5,7 +5,6 @@ Thermal Impedance SPICE Modeling software based on the bachelor thesis "Simplifi
 You can run the jupyter notebook as a docker image using docker-compose with the token=easy or with plain docker using automatically generated token available from the docker cli. The notebook can be accessed from the browser with the address localhost:8888.
 
 ```command
-[environment local]
 docker-compose up
 ```
 
@@ -13,14 +12,12 @@ docker-compose up
 You can also install all the python packages using the following command in the same directory as the pip_requirements.txt
 
 ```command
-[environment local]
 python -m pip install --upgrade pip && python -m pip install -r pip_requirements.txt
 ```
 
 Then to start the jupyter notebook run the following command
 
 ```command
-[environment local]
 jupyter notebook
 ```
 
