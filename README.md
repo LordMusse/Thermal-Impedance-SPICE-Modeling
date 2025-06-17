@@ -15,7 +15,7 @@ You can also install all the python packages using the following command in the 
 python -m pip install --upgrade pip && python -m pip install -r pip_requirements.txt
 ```
 
-Then to start the jupyter notebook run the following command
+Then to start the jupyter notebook run the following command inside the notebook folder
 
 ```command
 jupyter notebook
