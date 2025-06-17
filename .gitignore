@@ -1,0 +1,10 @@
+# ltspice building
+*.net
+*.log
+*.raw
+
+# jupyter container
+.cache*
+.ipy*
+.local*
+.jupyter*

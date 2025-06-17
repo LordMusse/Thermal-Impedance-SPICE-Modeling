@@ -1,0 +1,19 @@
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - notebook:/home/jupyter
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_TOKEN=easy
+
+volumes:
+  notebook:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./notebook
+      o: bind
