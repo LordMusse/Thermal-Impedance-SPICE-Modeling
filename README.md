@@ -9,14 +9,14 @@ docker-compose up
 ```
 
 ## How to run the software locally
-You can also install all the python packages using the following commands in the same directory as the pip_requirements.txt
+You can also install all the python packages using the following commands in the same directory as the requirements.txt
 
 ```command
 python -m pip install --upgrade pip
 ```
 
 ```command
-python -m pip install -r pip_requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 Then to start the jupyter notebook run the following command inside the notebook folder
