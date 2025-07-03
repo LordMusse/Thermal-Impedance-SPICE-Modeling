@@ -6,7 +6,7 @@ services:
     volumes:
       - notebook:/home/jupyter
     ports:
-      # "inner:outer" - inner always needs to be 8888,
+      # "outer:inner" - inner always needs to be 8888,
       # outer can be whatever port you have vacant on your system
       - "8888:8888"
     environment:
