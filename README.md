@@ -1,5 +1,5 @@
 # Thermal-Impedance-SPICE-Modeling
-Thermal Impedance SPICE Modeling software based on the bachelor thesis "Simplified Heat Simulation of PCB Circuit" at Chalmers University of Technology.
+Thermal Impedance SPICE Modeling software based on the bachelor thesis "Simplified Heat Simulation of PCB Circuit" at Chalmers University of Technology: https://odr.chalmers.se/items/fc7c82ce-7964-4356-9dae-14a6085a0620
 
 ## How to run the software as a docker image
 You can run the jupyter notebook as a docker image using docker-compose with the token=easy or with plain docker using automatically generated token available from the docker cli. The notebook can be accessed from the browser with the address localhost:8888.
